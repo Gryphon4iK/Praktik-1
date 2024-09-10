@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="ИС «Библиотека» (информационно-справочная система, поисковая система)" company="" webLink="http://" view-date="2024-08-01" view-index="0" gantt-divider-location="351" resource-divider-location="431" version="3.2.3230" locale="ru_RU">
+    <description>
+        <![CDATA[ИС «Библиотека» (информационно-справочная система, поисковая система)]]>
+    </description>
+    <view zooming-state="default:8" id="gantt-chart">
+        <field id="tpd3" name="Название" width="200" order="0"/>
+        <field id="tpd4" name="Дата начала" width="75" order="1"/>
+        <field id="tpd5" name="Дата окончания" width="75" order="2"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="color.recent">
+            <![CDATA[#33ff99 #ff9999 #ff0000 #99ffff #ffff00 #6666ff]]>
+        </option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Имя" width="276" order="0"/>
+        <field id="1" name="Стандартная роль" width="151" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="" month="1" date="1" type="HOLIDAY">
+            <![CDATA[Новый Год]]>
+        </date>
+        <date year="" month="1" date="7" type="HOLIDAY">
+            <![CDATA[Рождество Христово]]>
+        </date>
+        <date year="" month="2" date="23" type="HOLIDAY">
+            <![CDATA[День Защитника Отечества]]>
+        </date>
+        <date year="" month="3" date="8" type="HOLIDAY">
+            <![CDATA[Международный женский день]]>
+        </date>
+        <date year="" month="5" date="1" type="HOLIDAY">
+            <![CDATA[Праздник Весны и Труда]]>
+        </date>
+        <date year="" month="5" date="9" type="HOLIDAY">
+            <![CDATA[День Победы]]>
+        </date>
+        <date year="" month="6" date="12" type="HOLIDAY">
+            <![CDATA[День России]]>
+        </date>
+        <date year="" month="11" date="4" type="HOLIDAY">
+            <![CDATA[День народного единства]]>
+        </date>
+        <date year="2021" month="1" date="2" type="HOLIDAY"/>
+        <date year="2021" month="1" date="3" type="HOLIDAY"/>
+        <date year="2021" month="1" date="4" type="HOLIDAY"/>
+        <date year="2021" month="1" date="5" type="HOLIDAY"/>
+        <date year="2021" month="1" date="6" type="HOLIDAY"/>
+        <date year="2021" month="1" date="8" type="HOLIDAY"/>
+        <date year="2021" month="1" date="9" type="HOLIDAY"/>
+        <date year="2021" month="1" date="10" type="HOLIDAY"/>
+        <date year="2021" month="2" date="20" type="WORKING_DAY"/>
+        <date year="2021" month="2" date="22" type="HOLIDAY"/>
+        <date year="2021" month="11" date="5" type="HOLIDAY"/>
+        <date year="2021" month="12" date="31" type="HOLIDAY"/>
+        <date year="2020" month="1" date="2" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2020" month="1" date="3" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2020" month="1" date="4" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2020" month="1" date="5" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2020" month="1" date="6" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2020" month="1" date="8" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2020" month="2" date="24" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (с 23 февраля)]]>
+        </date>
+        <date year="2020" month="3" date="9" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (с 8 марта)]]>
+        </date>
+        <date year="2020" month="5" date="4" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (с 4 января)]]>
+        </date>
+        <date year="2020" month="5" date="5" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (с 5 января)]]>
+        </date>
+        <date year="2019" month="1" date="2" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2019" month="1" date="3" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2019" month="1" date="4" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2019" month="1" date="8" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2019" month="5" date="2" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (с 5 января)]]>
+        </date>
+        <date year="2019" month="5" date="3" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (с 6 января)]]>
+        </date>
+        <date year="2019" month="5" date="10" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (с 23 февраля)]]>
+        </date>
+        <date year="2015" month="1" date="2" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2015" month="1" date="3" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2015" month="1" date="4" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2015" month="1" date="5" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2015" month="1" date="6" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2015" month="1" date="8" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2015" month="1" date="9" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (3 января)]]>
+        </date>
+        <date year="2015" month="5" date="4" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (4 января)]]>
+        </date>
+        <date year="2016" month="1" date="2" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2016" month="1" date="3" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2016" month="1" date="4" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2016" month="1" date="5" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2016" month="1" date="6" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2016" month="1" date="8" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2016" month="2" date="20" type="WORKING_DAY">
+            <![CDATA[Выходной перенесен на 2016-02-22]]>
+        </date>
+        <date year="2016" month="2" date="22" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (20 февраля)]]>
+        </date>
+        <date year="2016" month="3" date="7" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (3 января)]]>
+        </date>
+        <date year="2016" month="5" date="2" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (1 мая)]]>
+        </date>
+        <date year="2016" month="5" date="3" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (2 января)]]>
+        </date>
+        <date year="2016" month="6" date="13" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (12 июня)]]>
+        </date>
+        <date year="2017" month="1" date="2" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2017" month="1" date="3" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2017" month="1" date="4" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2017" month="1" date="5" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2017" month="1" date="6" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2017" month="1" date="8" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2017" month="2" date="24" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (1 января)]]>
+        </date>
+        <date year="2017" month="5" date="8" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (7 января)]]>
+        </date>
+        <date year="2017" month="11" date="6" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (4 ноября)]]>
+        </date>
+        <date year="2018" month="1" date="2" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2018" month="1" date="3" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2018" month="1" date="4" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2018" month="1" date="5" type="HOLIDAY">
+            <![CDATA[Новогодние каникулы]]>
+        </date>
+        <date year="2018" month="3" date="9" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (с 6 января)]]>
+        </date>
+        <date year="2018" month="4" date="28" type="WORKING_DAY">
+            <![CDATA[Рабочий день взамен 30 апреля]]>
+        </date>
+        <date year="2018" month="4" date="30" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (с 28 апреля)]]>
+        </date>
+        <date year="2018" month="5" date="2" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (с 7 января)]]>
+        </date>
+        <date year="2018" month="6" date="9" type="WORKING_DAY">
+            <![CDATA[Рабочий день взамен 11 июня]]>
+        </date>
+        <date year="2018" month="6" date="11" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (с 9 июня)]]>
+        </date>
+        <date year="2018" month="12" date="29" type="WORKING_DAY">
+            <![CDATA[Рабочий день взамен 31 декабря]]>
+        </date>
+        <date year="2018" month="12" date="31" type="HOLIDAY">
+            <![CDATA[Перенесённый выходной (с 29 декабря)]]>
+        </date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Формирование рабочей группы" color="#ff0000" meeting="false" start="2024-09-02" duration="7" complete="0" thirdDate="2024-09-02" thirdDate-constraint="0" expand="true">
+            <depend id="1" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="1" name="Анализ текущих процессов" color="#ff9999" meeting="false" start="2024-09-11" duration="14" complete="0" thirdDate="2024-09-02" thirdDate-constraint="0" expand="true">
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="2" name="Определение бюджетов и сроков" color="#6666ff" meeting="false" start="2024-10-01" duration="7" complete="0" thirdDate="2024-09-02" thirdDate-constraint="0" expand="true">
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="3" name="Разработка плана внедрения" color="#ff0000" meeting="false" start="2024-10-10" duration="7" complete="0" thirdDate="2024-09-02" thirdDate-constraint="0" expand="true">
+            <depend id="4" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="4" name="Выбор программного обеспечения" color="#33ff99" meeting="false" start="2024-10-21" duration="14" complete="0" thirdDate="2024-09-02" thirdDate-constraint="0" expand="true">
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="5" name="Настройка системы" color="#33ff99" meeting="false" start="2024-11-11" duration="21" complete="0" thirdDate="2024-09-02" thirdDate-constraint="0" priority="2" expand="true">
+            <depend id="6" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="6" name="Интеграция с существующими системами" color="#33ff99" meeting="false" start="2024-12-10" duration="14" complete="0" thirdDate="2024-09-02" thirdDate-constraint="0" expand="true">
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="7" name="Проведения тестирования" color="#ffff00" meeting="false" start="2024-12-30" duration="14" complete="0" thirdDate="2024-09-02" thirdDate-constraint="0" priority="2" expand="true">
+            <depend id="8" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="8" name="Пилотное внедрение" color="#ff0000" meeting="false" start="2025-01-21" duration="7" complete="0" thirdDate="2024-09-02" thirdDate-constraint="0" expand="true">
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="9" name="Подготовка обучающих материалов" color="#99ffff" meeting="false" start="2025-01-30" duration="7" complete="0" thirdDate="2024-09-02" thirdDate-constraint="0" expand="true">
+            <depend id="10" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="10" name="Проведения обучения" color="#99ffff" meeting="false" start="2025-02-10" duration="7" complete="0" thirdDate="2024-09-02" thirdDate-constraint="0" expand="true">
+            <depend id="11" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="11" name="Полное внедрение" color="#ff0000" meeting="false" start="2025-02-19" duration="7" complete="0" thirdDate="2024-09-02" thirdDate-constraint="0" expand="true">
+            <depend id="12" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="12" name="Мониторинг работы системы" color="#33ff99" meeting="false" start="2025-02-28" duration="14" complete="0" thirdDate="2024-09-02" thirdDate-constraint="0" expand="true">
+            <depend id="13" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="13" name="Сбор обратной связи" color="#ff9999" meeting="false" start="2025-03-20" duration="7" complete="0" thirdDate="2024-09-02" thirdDate-constraint="0" expand="true">
+            <depend id="14" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="14" name="Внесение улучшений" color="#33ff99" meeting="false" start="2025-03-31" duration="7" complete="0" thirdDate="2024-09-02" thirdDate-constraint="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="13" name="Дмитриев Никита" function="Default:1" contacts="soinilocoyi-2593@yopmail.com" phone="7(63)984-88-07918">
+            <rate name="standard" value="320250"/>
+        </resource>
+        <resource id="14" name="Лаптева Ульяна" function="SoftwareDevelopment:8" contacts="lauloisoiretou-8223@yopmail.com" phone="7(069)788-66-18714">
+            <rate name="standard" value="102500"/>
+        </resource>
+        <resource id="15" name="Степанов Фёдор" function="SoftwareDevelopment:2" contacts="fruddulessevoi-3797@yopmail.com" phone="7(9452)512-39-21949">
+            <rate name="standard" value="260100"/>
+        </resource>
+        <resource id="16" name="Сидорова Майя" function="SoftwareDevelopment:4" contacts="greudeyedive-3508@yopmail.com" phone="7(564)426-19-89694">
+            <rate name="standard" value="175900"/>
+        </resource>
+        <resource id="17" name="Смирнова Дарья" function="2" contacts="teijillexutu-5143@yopmail.com" phone="7(881)563-80-21125">
+            <rate name="standard" value="105500"/>
+        </resource>
+        <resource id="18" name="Андреева София" function="1" contacts="kejeffunano-4849@yopmail.com" phone="7(70)181-35-22329">
+            <rate name="standard" value="100900"/>
+        </resource>
+    </resources>
+    <allocations>
+        <allocation task-id="0" resource-id="13" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="13" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="13" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="13" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="1" resource-id="14" function="SoftwareDevelopment:8" responsible="true" load="100.0"/>
+        <allocation task-id="13" resource-id="14" function="SoftwareDevelopment:8" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="15" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="15" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="15" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="15" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="15" function="SoftwareDevelopment:2" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="16" function="SoftwareDevelopment:4" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="17" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="18" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="18" function="1" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+    <roles>
+        <role id="1" name="тренер"/>
+        <role id="2" name="финансовый менеджер"/>
+    </roles>
+</project>
